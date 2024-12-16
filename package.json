@@ -1,21 +1,21 @@
 {
   "name": "hangman",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "express": "^4.21.2",
-    "matter-js": "^0.20.0",
-    "mongoose": "^8.9.0"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.0",
+    "gh-pages": "^3.2.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
