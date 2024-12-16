@@ -1,0 +1,93 @@
+* {
+    margin-top: 0.5rem;
+    text-align: center;
+    box-sizing: border-box;
+    background-image: 'frontend/public/assets/bg1.jpg';
+}
+
+  .freckle-face-regular {
+    font-family: "Freckle Face", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gloria-hallelujah-regular {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  
+  body {
+    background-image: '/assets/bg1.jpg';
+    background-size: cover;
+    background-position: center;
+    font-family: "Gloria Hallelujah", cursive;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+    font-size: 1.2rem;
+  }
+  
+  .App {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .App h1 {
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 2.5rem;
+    color: #2d2d2d;
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.75rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 1rem;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  @media (max-width: 600px) {
+    .App {
+      width: 90%;
+      padding: 10rem;
+    }
+    .App h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  

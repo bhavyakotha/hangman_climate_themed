@@ -1,0 +1,21 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "matter-js": "^0.20.0",
+    "mongoose": "^8.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
